@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94e4b23-fb53-44d5-9679-9e3b93e8a784" name="Default Changelist" comment="" />
+    <list default="true" id="b94e4b23-fb53-44d5-9679-9e3b93e8a784" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IaI_L1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IaI_L1/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j6qYKVuqNG4VfOhMFQVHmjcy0S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,9 +51,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1603135546185" />
+    <state x="2357" y="286" key="#Web_Browsers" timestamp="1603228608356">
+      <screen x="1920" y="0" width="1280" height="994" />
+    </state>
+    <state x="2357" y="286" key="#Web_Browsers/0.0.1920.1050/1920.0.1280.994@1920.0.1280.994" timestamp="1603228608356" />
     <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603135610669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1603135610669" />
+    <state x="2340" y="252" key="FileChooserDialogImpl" timestamp="1603228606614">
+      <screen x="1920" y="0" width="1280" height="994" />
+    </state>
+    <state x="2340" y="252" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1280.994@1920.0.1280.994" timestamp="1603228606614" />
   </component>
 </project>

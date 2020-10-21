@@ -2,3 +2,7 @@ body { background-color: gray; }
 nav ul li {
     display: inline;
 }
+div.container{
+background-color: red;
+display: flex;
+flex-direction: row-reverse;}

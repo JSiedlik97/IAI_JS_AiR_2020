@@ -2,6 +2,11 @@ body { background-color: gray; }
 nav ul li {
     display: inline;
 }
+a:hover{
+Background-color: red;
+color: purple;
+transmition: all 1s;
+}
 img {
     width: 200px;
     height: 200px;

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <title>Gopro Hero 9 by JS </title>
+</head>
+<div> </div>
+
+<h3><center>Niezapomniane wrażenia z nową kamerą GoPro Hero 9</center></h3>
+
+<!--         Bootstrap nav             -->
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="map.html">Map</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Quiz</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Kontakt</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<!--         Bootstrap nav             -->
+<form>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validationServer01">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Jakub" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationServer02">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Siedlik" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">E-mail</label>
+            <div class="input-group">
+
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="E-mail" aria-describedby="inputGroupPrepend3" required>
+                <div class="invalid-feedback">
+                    Please choose a e-mail.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationServer03">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationServer04">State</label>
+            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+            <div class="invalid-feedback">
+                Please provide a valid state.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationServer05">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+    </div>
+    <fieldset class="form-group">
+        <div class="row">
+            <legend> class="col-form-label col-sm-2 pt-0">Płeć</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Kobieta
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Mężczyzna
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </fieldset>
+    <select class="custom-select">
+        <option selected>Chose section of your work</option>
+        <option value="1">Aquipment</option>
+        <option value="2">Lenses</option>
+        <option value="3">Software</option>
+    </select>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+        <label class="custom-control-label" for="customSwitch1">Yes, I want this message back</label>
+    </div>
+    <label for="customRange1">Level of your experience in field</label>
+    <input type="range" class="custom-range" min="0" max="5" id="customRange1">
+    <form class="was-validated">
+        <div class="mb-3">
+            <label for="validationTextarea">Explain why you</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+            <div class="invalid-feedback">
+                Please enter a message in the textarea.
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback"> You must agree before submitting.
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+</form>
+</body>
+</html>

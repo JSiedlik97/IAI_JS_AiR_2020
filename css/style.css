@@ -2,10 +2,11 @@ body { background-color: gray; }
 nav ul li {
     display: inline;
 }
-a:hover{
-Background-color: red;
+a:hover
+{
+Background-color: #00BFFF;
 color: purple;
-transmition: all 1s;
+transition: all 1s;
 }
 img {
     width: 200px;
